@@ -1,0 +1,123 @@
+.section06_bg{
+
+  background: url(./image/pricing-bg.jpg) no-repeat ;
+  background-size: contain;
+  background-attachment: fixed;
+  background-attachment:scroll;
+  margin: auto;
+}
+
+
+.section06_title{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  padding: 3rem;
+  color: white;
+
+}
+
+.section06_title h1{
+  font-size: 3.5rem;
+  letter-spacing: 0.3rem;
+}
+
+.section06_title img{
+width: 100px;
+}
+
+.section06_body{
+  padding: 0 5rem;
+  display: flex;
+padding-bottom: 3rem;
+justify-content: center;
+
+}
+
+/* .section06_body_left{
+  
+} */
+
+.section06_box{
+  width: 500px;
+  height: 150px;
+display: flex;
+padding: 1rem;
+
+}
+
+.section06_box_text {
+color: rgb(184, 184, 184);
+}
+
+.section06_box_text h2{
+color: white;
+letter-spacing:1.5px;
+
+}
+
+.section06_box_text h1{
+  color: rgb(200, 160, 110);
+  }
+
+  .section06_img{
+    width: 162px;
+    height: 102px;
+    margin-right: 20px;
+    overflow:hidden;
+  }
+
+  .section06_img img:hover {
+    transform: scale(1.2);
+  }
+
+  .section06_img img{
+    width: 100%;
+    height: 100%;
+  }
+
+.section06_box_text p{
+  font-size: 0.8rem;
+  font-family: 'Noto Sans TC', sans-serif;
+
+}
+
+@media(max-width:1200px) {
+
+  .section06_bg{
+    background-size: cover;
+
+  }
+  .section06_body{
+    flex-direction: column;
+    padding: 0;
+  }
+
+
+  .section06_body_left,
+  .section06_body_right{
+    margin: auto;
+  }
+
+  .section06_box{
+    padding: 0;
+  }
+
+}
+
+@media(max-width:768px) {
+  .section06_body{
+    flex-direction: column;
+    margin: auto;
+  }
+  .section06_title h1{
+    font-size: 2.1rem;
+  letter-spacing: 0.2rem;
+
+  }
+  
+  .section06_title img{
+    width: 80px;
+  }
+}

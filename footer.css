@@ -1,0 +1,98 @@
+.footer_bg{
+  height: 100%;
+  background: rgb(29, 29, 29);
+  display: flex;
+flex-direction: column;
+align-items: center;
+}
+.footer_box{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_box_style{
+  width: 250px;
+  height: 130px;
+  border: 1px solid rgb(48, 47, 47);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1rem;
+}
+
+.footer_box_style i{
+  color:rgb(200, 160, 110) ; 
+
+font-size: 1.5rem;
+margin-bottom: 1rem;
+}
+
+.footer_box_style h2{
+  color:rgb(200, 160, 110) ; 
+  letter-spacing: 0.1rem;
+
+  /* font-family: 'Noto Sans TC', sans-serif; */
+}
+
+.footer_box_style h3{
+  color:rgb(134, 134, 134) ; 
+  letter-spacing: 0.1rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+
+
+  /* font-family: 'Noto Sans TC', sans-serif; */
+}
+
+.footer_text{
+  margin:  5rem 0;
+}
+.footer_text a{
+  text-decoration:none;
+  color:rgb(134, 134, 134) ; 
+  letter-spacing: 0.1rem;
+  margin:  1rem;
+
+}
+
+.footer_text>a:hover{
+  color:rgb(200, 160, 110) ; 
+
+}
+
+.footer_search_bar{
+padding-bottom: 5rem;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+#footer_search{
+  width: 300px;
+  height: 40px;
+  background: rgb(29, 29, 29);
+  border: 2px solid rgb(48, 47, 47);
+  padding:5px 15px;
+  letter-spacing: 0.1rem;
+
+}
+
+#footer_submit{
+  width: 100px;
+  height: 40px;
+  background: rgb(200, 160, 110);
+}
+
+
+@media(max-width:768px) {
+  .footer_box{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer_box_style{
+    width: 400px;
+  }
+}
